@@ -117,16 +117,18 @@ main {
   margin-top: 80px;
 }
 
-.cards-container {
-  justify-content: space-between;
+.card-container {
+  justify-content: center;
   flex-wrap: wrap;
-  row-gap: 20px;
+  gap: 20px;
   align-items: start;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card {
   width: 360px;
-  min-height: 400px;
+  height: 400px;
   box-shadow: 0 0 4px #d4ecff;
   border-radius: 4px;
   cursor: pointer;
